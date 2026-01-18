@@ -1,0 +1,28 @@
+# Virtual environment
+venv/
+rlhf_env/
+env/
+*.pyc
+__pycache__/
+
+# API keys and tokens
+.env
+*.key
+
+# Data files (can be large)
+*.json
+*.jsonl
+data/
+fitness_dataset/
+
+# OS files
+.DS_Store
+.idea/
+*.swp
+
+# Checkpoints
+*_checkpoint_*.json
+
+# Personal info
+*_labeled.json
+*_raw.json
