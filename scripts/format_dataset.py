@@ -343,7 +343,7 @@ If you use this dataset, please cite:
   author={{Victor Davidson}},
   year={{2025}},
   publisher={{Hugging Face}},
-  url={{https://huggingface.co/datasets/your-username/fitness-preferences}}
+  url={{https://huggingface.co/datasets/victor203/fitness-preferences}}
 }}
 ```
 
@@ -367,7 +367,7 @@ If you use this dataset, please cite:
 from datasets import load_dataset
 
 # Load the dataset
-dataset = load_dataset("your-username/fitness-preferences")
+dataset = load_dataset("victor203/fitness-preferences")
 
 # Access different splits
 train_data = dataset['train']

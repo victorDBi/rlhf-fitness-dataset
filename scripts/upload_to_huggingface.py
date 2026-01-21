@@ -90,7 +90,7 @@ def upload_to_hf(dataset_dict, repo_name, data_dir='fitness_dataset'):
         print("UPLOAD COMPLETE!")
         print("="*80)
         print(f"\n🎉 Your dataset is now live at:")
-        print(f"https://huggingface.co/datasets/{repo_name}")
+        print(f"https://huggingface.co/victor203/{repo_name}")
         print(f"\nView it in your browser or use it in code:")
         print(f"```python")
         print(f"from datasets import load_dataset")

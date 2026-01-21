@@ -70,7 +70,7 @@ Publishes the formatted dataset to Hugging Face Hub.
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/[your-username]/rlhf-fitness-dataset.git
+git clone https://github.com/victorDBi/rlhf-fitness-dataset.git
 cd rlhf-fitness-dataset
 ```
 
