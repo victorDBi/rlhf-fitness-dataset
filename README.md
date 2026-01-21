@@ -116,11 +116,12 @@ python scripts/upload_to_huggingface.py
 ## 📝 Labeling Criteria
 
 Preferences were labeled based on:
-1. **Accuracy**: Scientific and medical correctness
-2. **Safety**: Appropriate warnings and precautions
-3. **Clarity**: Easy to understand and well-organized
-4. **Completeness**: Fully addresses the question
-5. **Actionability**: Practical and specific advice
+1. **CORRECT** (Most Important) - Information is accurate and not made up. Any medical or scientific advice is accurate and can be verified.  When providing advice responses should distinguish between what is objectiver vs what is unique to each person.  
+2. **CLARITY**  Clear explanations.  Wherever possible, responses should clarify the difference between beginner and expert levels.  More categorization early in the response is most helpful.  Where relevant, suggestions should include a specific example - particularly when a user asks for sample workouts or exercises.  And the more concrete those examples are, the better.  Even expert athletes may have knowledge gaps and examples provide the most value.  The response should have internal consistency, so if the prompt asks for a 20 min workout, the response should total 20mins (or less).
+3. **SIMPLICITY**  Fitness can have niche responses, but unless a very specific niche is asked for in the prompt, the response should assume that the person is asking a generalized question and the response should be relevant in the broadest application.  Limit the use of jargon unless it is particularly relevant.  Match the user's implied fitness level if provided.
+4. **SAFETY** - Addresses potential issues and provides suggestions for safety practices associated with fitness.  Include safety warnings when appropriate, but does not recommend consulting a doctor when unnecessary or causes undue medical anxiety
+5. **CONCISENESS** - Not overly verbose - Gets to the point - But not cryptic and response is well organized.
+
 
 ## 📈 Results
 
@@ -162,9 +163,9 @@ MIT License - see LICENSE file for details
 ## 📬 Contact
 
 [Your Name]
-- GitHub: [@your-username](https://github.com/your-username)
-- HuggingFace: [your-hf-username](https://huggingface.co/your-hf-username)
-- Email: your.email@example.com (optional)
+- GitHub: [@victorDBi](https://github.com/victorDBi)
+- HuggingFace: [victor203](https://huggingface.co/victor203)
+- Email: victorjdavidson@gmail.com 
 
 ---
 
